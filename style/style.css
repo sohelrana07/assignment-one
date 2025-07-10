@@ -29,7 +29,7 @@
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
-    padding: 12px 36px;
+    padding: 14px 36px;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 700;
@@ -59,7 +59,7 @@ nav {
 }
 
 .nav-title {
-    font-size: 34px;
+    font-size: 36px;
     font-family: "Inter", sans-serif;
 }
 
@@ -78,3 +78,44 @@ nav {
     color: #252432;
     margin-bottom: 37px;
 }
+
+/* action section start here */
+.action {
+    margin-bottom: 116px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-content {
+    width: 517px;
+    text-align: left;
+}
+
+.action-content * {
+    margin-top: 23px;
+}
+
+.action-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.sub-title {
+    font-size: 24px;
+    color: #252432;
+}
+
+.action-image {
+    width: 403px;
+}
+
+.action-image img {
+    width: 100%;
+    border-radius: 48px;
+}
+
