@@ -11,9 +11,9 @@
     font-style: normal;
 }
 
-extra-font {
+/* extra-font {
     font-family: "Inter", sans-serif;
-}
+} */
 
 
 
@@ -272,6 +272,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 71px 0;
+    background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 14px;
 }
 
