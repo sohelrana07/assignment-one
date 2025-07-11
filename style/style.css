@@ -7,11 +7,13 @@
 
 .raleway-normal {
     font-family: "Raleway", sans-serif;
-    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
+extra-font {
+    font-family: "Inter", sans-serif;
+}
 
 /* shared section style here */
 .main-width {
@@ -74,12 +76,12 @@ nav {
 .banner-title {
     font-size: 65px;
     font-weight: 700;
-    font-family: "Raleway", sans-serif;
     color: #252432;
     margin-bottom: 37px;
 }
 
-/* action section start here */
+
+/* action section style here */
 .action {
     margin-bottom: 116px;
 }
@@ -107,7 +109,7 @@ nav {
 
 .sub-title {
     font-size: 24px;
-    color: #252432;
+    color: rgba(37, 36, 50, 0.5);
 }
 
 .action-image {
@@ -124,7 +126,6 @@ nav {
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     padding: 50px 80px;
-    border: 2px solid red;
     margin-bottom: 137px;
 }
 
@@ -140,7 +141,6 @@ nav {
     justify-content: space-between;
     gap: 158px;
     padding: 50px;
-    border: 2px solid red;
 }
 
 
@@ -151,31 +151,97 @@ nav {
 }
 
 .user-details {
-    color: #000000;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
     font-family: "Inter", sans-serif;
 }
 
-/* input section start here */
+/* challenges task section style here */
+.challenges-task {
+    margin-bottom: 92px;
+}
+
+.challenge-title {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.task-card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 50px auto 0 auto;
+}
+
+.task-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    padding: 24px;
+    box-shadow: 0 0 0 1px#F2EDED;
+}
+
+.task-card img {
+    margin-left: 5px;
+}
+
+.card-content .task-title {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    margin-top: 24px;
+}
+
+.task-description {
+    margin-top: 8px;
+    font-family: "Inter", sans-serif;
+}
+
+.reviewer-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.reviewer-card img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.reviewer-name {
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.review-date {
+    color: #B3B3B3;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* input section style here */
 .touch {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 71px 0;
-    border: 2px solid red;
-    margin-bottom: 120px;
+    margin-bottom: 14px;
 }
 
 .touch-title {
     width: 528px;
     font-size: 97px;
     font-weight: 700;
-    border: 2px solid tomato;
 }
 
 .input-container-section {
     width: 497px;
-    border: 2px solid tomato;
 }
 
 .input-content label {
@@ -194,7 +260,10 @@ nav {
     border-radius: 10px;
     padding: 20px 32px;
     border: 2px solid #D6DDED;
+    background-color: #FFFFFF;
     font-size: 20px;
+    font-family: "Inter", sans-serif;
+
 }
 
 .input-content textarea {
@@ -205,8 +274,17 @@ nav {
     border-radius: 10px;
     padding: 20px 32px;
     border: 2px solid #D6DDED;
+    background-color: #FFFFFF;
     font-size: 20px;
+    font-family: "Inter", sans-serif;
 }
+
+.input-content ::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+}
+
 
 .secondary-btn {
     width: 100%;
@@ -222,50 +300,52 @@ nav {
     margin-top: 19px;
 }
 
-/* footer section start here */
-footer{
+/* footer section style here */
+footer {
     max-width: 1440px;
     margin: 0px auto;
     border: 2px solid red;
 
 }
 
-.footer-container{
-    width: 530px;
+.footer-container {
+    width: 600px;
     text-align: center;
     margin: 104px auto;
     border: 2px solid tomato;
 }
 
-.footer-container *{
+.footer-container * {
     margin-top: 20px;
 }
 
-.footer-title{
+.footer-title {
     font-size: 100px;
     font-weight: 700;
     font-family: "Inter", sans-serif;
 }
 
-.footer-description{
+.footer-description {
     color: #8987A1;
+    font-family: "Inter", sans-serif;
 }
 
-ul{
+ul {
+    width: 450px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    margin: 0px auto;
     border: 2px solid red;
 
 }
 
-ul li{
+ul li {
     list-style: none;
-    margin-right: 48px;
+    text-align: top;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: #8987A1;
+    font-family: "Inter", sans-serif;
 }
-
