@@ -15,6 +15,8 @@ extra-font {
     font-family: "Inter", sans-serif;
 }
 
+
+
 /* shared section style here */
 .main-width {
     max-width: 1140px;
@@ -40,7 +42,8 @@ extra-font {
 
 .btn-primary:hover {
     background-color: #FD6E0A;
-    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -87,14 +90,12 @@ nav {
 
 /* action section style here */
 .action {
-    margin-bottom: 116px;
-}
-
-.action-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 116px;
 }
+
 
 .action-content {
     width: 517px;
@@ -183,7 +184,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 14px;
     padding: 24px;
-    box-shadow: 0 0 0 1px#F2EDED;
+    box-shadow: 0 0 0 1.5px#F2EDED;
 }
 
 .task-card img {
@@ -237,17 +238,16 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 71px;
+    padding: 71px 150px;
     margin-bottom: 92px;
-    border: 2px solid red;
 }
+
 
 .free-container {
     text-align: center;
-    border: 2px solid red;
 }
 
-.free-container *{
+.free-container * {
     margin-top: 22px;
 }
 
@@ -343,36 +343,37 @@ nav {
 
 .secondary-btn:hover {
     background-color: #FD6E0A;
-    color: white;
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 
 /* footer section style here */
 footer {
     max-width: 1440px;
     margin: 0px auto;
+    padding: 120px;
     background-color: #FFFFFF;
+    box-shadow: 2px 0px 4px 1px  rgba(0, 0, 0, 0.1);
 }
 
 .footer-container {
-    width: 600px;
+    width: 590px;
     text-align: center;
-    margin: 104px auto;
-    border: 2px solid tomato;
-}
-
-.footer-container * {
-    margin-top: 20px;
+    margin: 0px auto;
 }
 
 .footer-title {
     font-size: 100px;
     font-weight: 700;
     /* font-family: "Inter", sans-serif; */
+    margin-top: 20px;
 }
 
 .footer-description {
     color: #8987A1;
     font-family: "Inter", sans-serif;
+    margin-top: 20px;
 }
 
 footer ul {
@@ -380,16 +381,21 @@ footer ul {
     display: flex;
     justify-content: space-around;
     margin: 0px auto;
-    border: 2px solid red;
+    padding: 24px 0px;
 
 }
 
-ul li {
+footer ul li {
     list-style: none;
 }
 
-ul li a {
+footer li a {
     text-decoration: none;
     color: #8987A1;
     font-family: "Inter", sans-serif;
+}
+
+footer p:hover {
+    text-decoration: underline;
+    color: #8987A1;
 }
