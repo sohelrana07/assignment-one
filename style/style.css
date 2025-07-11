@@ -28,6 +28,10 @@
     color: #4E47FF;
 }
 
+.special-color {
+    color: #FD6E0A;
+}
+
 
 .btn-primary {
     background-color: #4E47FF;
@@ -355,7 +359,7 @@ footer {
     margin: 0px auto;
     padding: 120px;
     background-color: #FFFFFF;
-    box-shadow: 2px 0px 4px 1px  rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 0px 4px 1px rgba(0, 0, 0, 0.1);
 }
 
 .footer-container {
