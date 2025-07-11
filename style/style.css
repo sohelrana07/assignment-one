@@ -368,13 +368,12 @@ footer {
     font-size: 100px;
     font-weight: 700;
     /* font-family: "Inter", sans-serif; */
-    margin-top: 20px;
 }
 
 .footer-description {
     color: #8987A1;
     font-family: "Inter", sans-serif;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 footer ul {
