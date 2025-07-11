@@ -38,6 +38,10 @@ extra-font {
     cursor: pointer;
 }
 
+.btn-primary:hover {
+    background-color: #FD6E0A;
+    color: white;
+}
 
 
 /* header section style here */
@@ -183,7 +187,7 @@ nav {
 }
 
 .task-card img {
-    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .card-content .task-title {
@@ -221,7 +225,44 @@ nav {
 
 .review-date {
     color: #B3B3B3;
+    font-size: 14px;
     font-family: "Inter", sans-serif;
+}
+
+/* free section style here */
+.free {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 71px;
+    margin-bottom: 92px;
+    border: 2px solid red;
+}
+
+.free-container {
+    text-align: center;
+    border: 2px solid red;
+}
+
+.free-container *{
+    margin-top: 22px;
+}
+
+.free-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.free-section-about {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.free img {
+    width: 840px;
+    border-radius: 48px;
 }
 
 
@@ -300,12 +341,16 @@ nav {
     margin-top: 19px;
 }
 
+.secondary-btn:hover {
+    background-color: #FD6E0A;
+    color: white;
+}
+
 /* footer section style here */
 footer {
     max-width: 1440px;
     margin: 0px auto;
-    border: 2px solid red;
-
+    background-color: #FFFFFF;
 }
 
 .footer-container {
@@ -322,7 +367,7 @@ footer {
 .footer-title {
     font-size: 100px;
     font-weight: 700;
-    font-family: "Inter", sans-serif;
+    /* font-family: "Inter", sans-serif; */
 }
 
 .footer-description {
@@ -330,7 +375,7 @@ footer {
     font-family: "Inter", sans-serif;
 }
 
-ul {
+footer ul {
     width: 450px;
     display: flex;
     justify-content: space-around;
@@ -341,7 +386,6 @@ ul {
 
 ul li {
     list-style: none;
-    text-align: top;
 }
 
 ul li a {
