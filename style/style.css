@@ -399,7 +399,7 @@ footer li a {
     font-family: "Inter", sans-serif;
 }
 
-footer p:hover {
+footer a:hover {
     text-decoration: underline;
     color: #8987A1;
 }
